@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabores da Terra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao Sabores da Terra</h1>
+    <p>Explore os melhores sabores locais, frangos suculentos e mariscos frescos.</p>
+    <button onclick="window.location.href='menu.html'">Ver Menu</button>
+  </header>
+
+  <main>
+    <section id="sobre-nos">
+      <h2>Sobre Nós</h2>
+      <p>Somos apaixonados por comida local e por oferecer experiências inesquecíveis aos nossos clientes.</p>
+    </section>
+
+    <section id="missao">
+      <h2>Missão</h2>
+      <p>Proporcionar momentos únicos através da culinária autêntica e do atendimento excepcional.</p>
+    </section>
+
+    <!-- Botões para Reservas e Contactos -->
+    <section id="acoes-principais">
+        <div class="botoes">
+          <button onclick="window.location.href='reservas.html'">Reservas</button>
+          <button onclick="window.location.href='contactos.html'">Contactos</button>
+        </div>
+      </section>
+
+<!--<section id="depoimentos">
+      <h2>Depoimentos de Clientes</h2>
+      <blockquote>"Comida deliciosa e ambiente acolhedor! Recomendo!" - Maria S.</blockquote>
+      <blockquote>"O melhor frango grelhado da região. Experiência fantástica!" - João P.</blockquote>
+    </section>-->
+
+    <section id="comentarios">
+        <h2>Deixe seu Comentário</h2>
+        <form id="form-comentario">
+          <label for="comentario">Comentário:</label>
+          <textarea id="comentario" name="comentario" rows="4" placeholder="Escreva seu comentário aqui..." required></textarea>
+          <button type="submit">Enviar Comentário</button>
+        </form>
+      
+        <h3>Comentários dos Usuários:</h3>
+        <div id="lista-comentarios">
+          <!-- Comentários serão exibidos aqui -->
+        </div>
+      </section>
+      
+
+    <section id="depoimentos">
+      <h2>Depoimentos de Clientes</h2>
+      <blockquote>"Comida deliciosa e ambiente acolhedor! Recomendo!" - Maria S.</blockquote>
+      <blockquote>"O melhor frango grelhado da região. Experiência fantástica!" - João P.</blockquote>
+    </section>
+
+    <section id="promocoes">
+      <h2>Promoções Semanais</h2>
+      <div id="destaques"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Sabores da Terra. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

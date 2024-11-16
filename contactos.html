@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactos - Sabores da Terra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sabores da Terra - Contactos</h1>
+  </header>
+
+  <main>
+    <!-- Informações de Contacto -->
+    <section id="informacoes-contacto">
+      <h2>Informações de Contacto</h2>
+      <p>Tem alguma dúvida ou deseja fazer um comentário? Fale conosco!</p>
+      <ul>
+        <li><strong>Telefone:</strong> (+258) 84 238 3655</li>
+        <li><strong>E-mail:</strong> contacto@saboresdaterra.com</li>
+        <li><strong>Endereço:</strong> Inhassoro, 1023, Inhambane, Mocambique</li>
+      </ul>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="formulario-contacto">
+      <h2>Envie-nos uma Mensagem</h2>
+      <form id="form-contato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+      <div id="mensagem-sucesso" style="display:none; color: green;">
+        <p>Mensagem enviada com sucesso! Entraremos em contato em breve.</p>
+      </div>
+    </section>
+
+    <!-- Mapa de Localização-->
+    <section id="mapa">
+      <h2>Visite-nos</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Sabores da Terra. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="contactos.js"></script>
+</body>
+</html>
